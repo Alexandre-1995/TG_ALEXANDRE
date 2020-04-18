@@ -245,8 +245,8 @@ if __name__ == "__main__" :
     Sy1=3
     Sx2=3
     Sy2=3
-    template_maior1 = cv.imread('template_maior_direita.png')
-    template_maior2 = cv.imread('template_maior_esquerda.png')
+    template_maior1 = cv.imread('template_direita.png')
+    template_maior2 = cv.imread('template_esquerda.png')
     template_menor1 = cv.imread('template_menor_direita.png')
     template_menor2 = cv.imread('template_menor_esquerda.png')
     while (1):
