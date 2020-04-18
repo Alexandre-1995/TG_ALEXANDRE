@@ -224,9 +224,10 @@ if __name__ == "__main__" :
     
     if len(sys.argv) > 1:
         source = sys.argv[1]
-
+##########################################################################################
+### - Nesse ponto o código pode ser adaptado para receber imagens de um vídeo externo.
     cap = cv.VideoCapture(0)
-    
+##########################################################################################
     hasFrame, frame = cap.read()
 
     frame_count = 0
